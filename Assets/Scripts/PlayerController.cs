@@ -60,22 +60,18 @@ public class PlayerController : MonoBehaviour
     public void MoveUp()    
     { 
         inputDir = Vector3.up; 
-        // RotatePlayer(inputDir.x, inputDir.y); 
     }
     public void MoveDown()  
     { 
         inputDir = Vector3.down; 
-        // RotatePlayer(inputDir.x, inputDir.y); 
     }
     public void MoveLeft()  
     { 
         inputDir = Vector3.left; 
-        // RotatePlayer(inputDir.x, inputDir.y); 
     }
     public void MoveRight() 
     { 
         inputDir = Vector3.right; 
-        // RotatePlayer(inputDir.x, inputDir.y); 
     }
 
     void UpdateMoveText()
