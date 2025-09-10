@@ -21,6 +21,7 @@ public class LevelSelectionMenuManager : MonoBehaviour
     {
         audioManager.PlaySFX(audioManager.buttonClickSound);
         currLevel = level;
+        SceneManager.LoadScene("SampleScene");
 
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
