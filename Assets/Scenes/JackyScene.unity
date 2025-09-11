@@ -3553,7 +3553,7 @@ MonoBehaviour:
   vcamOverview: {fileID: 1210470310}
   vcamPlayer: {fileID: 1845214946}
   timerText: {fileID: 1890055101}
-  memorizeTimeUI: {fileID: 14592957}
+  memorizeTimeUI: {fileID: 952665466}
   bottomUI: {fileID: 1601411287}
   globalLight: {fileID: 619394801}
   playerLight: {fileID: 180301981}
@@ -4554,7 +4554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &952665467
 RectTransform:
   m_ObjectHideFlags: 0
