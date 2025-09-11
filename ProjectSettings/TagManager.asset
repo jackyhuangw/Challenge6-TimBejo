@@ -44,14 +44,20 @@ TagManager:
   - name: Background
     uniqueID: 2641958631
     locked: 0
-  - name: Midground
-    uniqueID: 1508587745
+  - name: WalkInFront
+    uniqueID: 4152368007
     locked: 0
-  - name: Foreground Objects
-    uniqueID: 1484711525
+  - name: Colliders
+    uniqueID: 2166617753
     locked: 0
   - name: Player
     uniqueID: 1424068603
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 2442346833
+    locked: 0
+  - name: Decor
+    uniqueID: 2225760919
     locked: 0
   - name: UI
     uniqueID: 2961616395
