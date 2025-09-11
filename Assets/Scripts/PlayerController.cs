@@ -14,12 +14,18 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Vector2 lastInput = Vector2.down;
 
+    // Save starting position
+    private Vector3 startPosition;
+    private Vector3 startMovePoint;
+
+
     void Start()
     {
         movePoint.parent = null;
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         UpdateMoveText();
+
     }
 
     void Update()
@@ -42,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
                 lastInput = inputDir; // Save last direction
             }
-            inputDir = Vector3.zero; 
+            inputDir = Vector3.zero;
         }
 
         // Feed animation parameters
@@ -57,25 +63,26 @@ public class PlayerController : MonoBehaviour
     }
 
     // Button functions
-    public void MoveUp()    
-    { 
-        inputDir = Vector3.up; 
+    public void MoveUp()
+    {
+        inputDir = Vector3.up;
     }
-    public void MoveDown()  
-    { 
-        inputDir = Vector3.down; 
+    public void MoveDown()
+    {
+        inputDir = Vector3.down;
     }
-    public void MoveLeft()  
-    { 
-        inputDir = Vector3.left; 
+    public void MoveLeft()
+    {
+        inputDir = Vector3.left;
     }
-    public void MoveRight() 
-    { 
-        inputDir = Vector3.right; 
+    public void MoveRight()
+    {
+        inputDir = Vector3.right;
     }
 
     void UpdateMoveText()
     {
         moveCounterText.text = "" + move;
     }
+    
 }

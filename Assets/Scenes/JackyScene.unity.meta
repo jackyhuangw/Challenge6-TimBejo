@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: e47bc342373f94bc2b3cb40a817400b6
+=======
+guid: 5d5e85d42aa204d46a3207f92752bd05
+>>>>>>> origin/feat-gui
 DefaultImporter:
   externalObjects: {}
   userData: 

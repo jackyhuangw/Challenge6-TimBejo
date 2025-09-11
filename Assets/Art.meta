@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6add5cfb01be94b6ca0ab265e43401f6
+=======
+guid: 2b2fb74e78a8a47c5b1d920ad3e14eff
+>>>>>>> origin/feat-gui
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
