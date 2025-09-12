@@ -47,9 +47,6 @@ TagManager:
   - name: WalkInFront
     uniqueID: 4152368007
     locked: 0
-  - name: Colliders
-    uniqueID: 2166617753
-    locked: 0
   - name: Player
     uniqueID: 1424068603
     locked: 0

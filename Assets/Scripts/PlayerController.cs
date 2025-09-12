@@ -57,25 +57,29 @@ public class PlayerController : MonoBehaviour
     }
 
     // Button functions
-    public void MoveUp()    
-    { 
+    public void MoveUp()
+    {
         inputDir = Vector3.up; 
+        lastInput = inputDir;
     }
-    public void MoveDown()  
-    { 
+    public void MoveDown()
+    {
         inputDir = Vector3.down; 
+        lastInput = inputDir;
     }
-    public void MoveLeft()  
-    { 
+    public void MoveLeft()
+    {
         inputDir = Vector3.left; 
+        lastInput = inputDir;
     }
-    public void MoveRight() 
-    { 
+    public void MoveRight()
+    {
         inputDir = Vector3.right; 
+        lastInput = inputDir;
     }
 
     void UpdateMoveText()
     {
-        moveCounterText.text = "" + move;
+        moveCounterText.text = "Total move\n" + move;
     }
 }
